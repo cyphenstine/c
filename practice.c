@@ -72,14 +72,14 @@ void main()
    */
 
 
-    //✌️code practuce_2
+    //✌️code practuce_2 : just prints the valus of "p" and "q"
 
     /*
     int p,q;
     printf("enter values of p and q : ");
     scanf("%d %d",&p,&q);
     printf("p = %d , q = %d",p,q);
-    */
+    /*
 
 
     //✌️find remainder , here a must be > than b , otherwise code will curse you
@@ -228,6 +228,9 @@ void main()
    b=temp_var;
    printf("\nnow 1st number and 2nd number : %d , %d",a,b);
    */
+
+
+    //✌️
 
     
 
