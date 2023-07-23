@@ -199,19 +199,42 @@ void main()
 
     //✌️fibonacci sequence : a sequence where a number is sum of previous two numbers first and second numers in febonacci sequence are 0,1 . ex : 0,1,1,2,3,5,8,13,etc
 
-    /*
-    int i,n,nt,n1=0,n2=1;
+    /*    int i,n,nt,n1=0,n2=1;
     nt=n1+n2;
     printf("enter the limit of terms : ");
     scanf("%d",&n);
     printf("febinacci sequence : %d %d ",n1,n2);
     for (i=3;i<=n;++i)
-    {printf("%d ",nt);
-    n1=n2;
-    n2=nt;
-    nt=n1+n2;    
+    {
+        printf("%d ",nt);
+        n1=n2;
+        n2=nt;
+        nt=n1+n2;    
     }
     */
+
+
+   //✌️swap two numbers using a temporary variable
+
+
+    /*
+   int a,b,temp_var;
+   printf("enter value of 1st number : ");
+   scanf("%d",&a);
+   printf("\nenter value of 2nd number : ");
+   scanf("%d",&b);
+   temp_var=a;
+   a=b;
+   b=temp_var;
+   printf("\nnow 1st number and 2nd number : %d , %d",a,b);
+   */
+
+    
+
+    
+    
+
+
 
 
 
