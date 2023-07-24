@@ -199,7 +199,8 @@ void main()
 
     //✌️fibonacci sequence : a sequence where a number is sum of previous two numbers first and second numers in febonacci sequence are 0,1 . ex : 0,1,1,2,3,5,8,13,etc
 
-    /*    int i,n,nt,n1=0,n2=1;
+    /*  
+    int i,n,nt,n1=0,n2=1;
     nt=n1+n2;
     printf("enter the limit of terms : ");
     scanf("%d",&n);
@@ -230,7 +231,51 @@ void main()
    */
 
 
-    //✌️
+    //✌️find the roots of the quadratic equation
+    /*
+        <notes> :
+        1) "b^2-4ac" is called "discriminant"
+        2)if the discriminant > 0 ,then roots are real and different
+        3)if the discriminant = 0 ,then roots are real and equal
+        4)if the discriminant < 0 ,then the roots are complex and different 
+        5)root_1 : -b+sqrt(b^2-4ac)/2a
+          root_2 : -b-sqrt(b^2-4ac)/2a
+    */
+
+   /*
+   double a,b,c,discri,root_1,root_2,real_part,imag_part;
+   printf("enter a : ");
+   scanf("%lf",&a);
+   printf("\nenter b : ");
+   scanf("%lf",&b);
+   printf("\nenter c : ");
+   scanf("%lf",&c);
+   discri=b*b-4*a*c;
+   //real and different roots
+   if (discri>0)
+   {
+        root_1=(-b+sqrt(discri))/(2*a);
+        root_2=(-b-sqrt(discri))/(2*a);
+        printf("\nroot_1 & root_2 : %lf , %lf",root_1,root_2);
+   }
+   //common and real roots
+   else if (discri==0)
+   {
+        root_1=(-b+sqrt(discri))/(2*a);
+        printf("\nroot : %lf",root_1);
+   }
+   //complex roots
+   else
+   {
+        real_part=-b/(2*a);
+        imag_part=sqrt(-discri)/(2*a);
+        printf("\nroot_1 : %lf+%lfi",real_part,imag_part);
+        printf("\nroot_2 : %lf-%lfi",real_part,imag_part);
+   }
+    */
+
+
+
 
     
 
