@@ -233,7 +233,7 @@ void main()
 
     //✌️find the roots of the quadratic equation
     
-
+    /*
         <notes>(logic) :
 
             1) "b^2-4ac" is called "discriminant"
@@ -248,7 +248,7 @@ void main()
                 then : 
                     root_1 : (-b/2a)+[i*sqrt-(b^2-4ac)/2a]
                     root_2 : (-b/2a)-[i*sqrt-(b^2-4ac)/2a]
-         
+    */   
     
 
 
@@ -288,7 +288,7 @@ void main()
    //✌️count amount of individual number in a number
 
 
-   
+
 
 
 
