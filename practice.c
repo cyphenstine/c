@@ -232,15 +232,25 @@ void main()
 
 
     //✌️find the roots of the quadratic equation
-    /*
-        <notes> :
-        1) "b^2-4ac" is called "discriminant"
-        2)if the discriminant > 0 ,then roots are real and different
-        3)if the discriminant = 0 ,then roots are real and equal
-        4)if the discriminant < 0 ,then the roots are complex and different 
-        5)root_1 : -b+sqrt(b^2-4ac)/2a
-          root_2 : -b-sqrt(b^2-4ac)/2a
-    */
+    
+
+        <notes>(logic) :
+
+            1) "b^2-4ac" is called "discriminant"
+            2)if the discriminant > 0 ,then roots are real and different
+                then : 
+                    root_1 : -b+sqrt(b^2-4ac)/2a
+                    root_2 : -b-sqrt(b^2-4ac)/2a
+            3)if the discriminant = 0 ,then roots are real and equal
+                then : 
+                    root_1=root_2=-b/2a
+            4)if the discriminant < 0 ,then the roots are complex and different 
+                then : 
+                    root_1 : (-b/2a)+[i*sqrt-(b^2-4ac)/2a]
+                    root_2 : (-b/2a)-[i*sqrt-(b^2-4ac)/2a]
+         
+    
+
 
    /*
    double a,b,c,discri,root_1,root_2,real_part,imag_part;
@@ -261,7 +271,7 @@ void main()
    //common and real roots
    else if (discri==0)
    {
-        root_1=(-b+sqrt(discri))/(2*a);
+        root_1=root_2=-b/2a;
         printf("\nroot : %lf",root_1);
    }
    //complex roots
@@ -273,6 +283,12 @@ void main()
         printf("\nroot_2 : %lf-%lfi",real_part,imag_part);
    }
     */
+
+
+   //✌️count amount of individual number in a number
+
+
+   
 
 
 
