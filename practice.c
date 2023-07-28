@@ -14,7 +14,7 @@ void main()
     */
 
 
-    // ✌️volume of a sphere
+    //✌️volume of a sphere
 
     /*
     float r,vol;
@@ -36,7 +36,7 @@ void main()
     */
 
 
-   // ✌️calculate overall percentage of 6 subjects
+   //✌️calculate overall percentage of 6 subjects
 
    /*
    float phy , che , bio , eng , ben , comapp , ov_per;
@@ -251,7 +251,6 @@ void main()
     */   
     
 
-
    /*
    double a,b,c,discri,root_1,root_2,real_part,imag_part;
    printf("enter a : ");
@@ -271,10 +270,10 @@ void main()
    //common and real roots
    else if (discri==0)
    {
-        root_1=root_2=-b/2a;
+        root_1=root_2=-b/2*a;
         printf("\nroot : %lf",root_1);
    }
-   //complex roots
+   //complex roots(here i did'nt understand a shit !! what's going on !! i just copied the logic)
    else
    {
         real_part=-b/(2*a);
@@ -282,19 +281,41 @@ void main()
         printf("\nroot_1 : %lf+%lfi",real_part,imag_part);
         printf("\nroot_2 : %lf-%lfi",real_part,imag_part);
    }
+   */ 
+
+
+   //✌️count amount of individual digit in a number
+
+
+    /*
+    long long n , count=0 ;
+    printf("enter the number : ");
+    scanf("%lld",&n);
+    while(n>0)
+    {
+        n=n/10;
+        count=count+1;
+    }
+    printf("\nthe total number of digits were : %lld",count);
     */
 
 
-   //✌️count amount of individual number in a number
-
-
-
-
-
-
+   //✌️check whether a character is an aplabet or not
 
     
-
+    /*
+    char c;
+    printf("enter the character : ");
+    scanf("%c",&c);
+    if ((c>='a' && c<='z') || (c>='A' && c<='Z'))
+    {
+        printf("%c is an alphabet",c);
+    }
+    else
+    {
+        printf("%c is not an alphabet",c);
+    }
+    */
     
     
 
