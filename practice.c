@@ -319,7 +319,28 @@ void main()
 
 
     
-    //✌️
+    //✌️find an alphabet is a vowel or consonent
+
+
+    /*
+    char c,up_c_vo,lo_c_vo;
+    printf("enter the alphabet : ");
+    scanf("%c",&c);
+    up_c_vo=(c=='a' || c=='e'|| c=='i' || c=='o' || c=='u');
+    lo_c_vo=(c=='A' || c=='E' || c=='I' || c=='O' || c=='U');
+    if(c=up_c_vo)
+    {
+        printf("vowel");
+    }
+    else if(c=lo_c_vo)
+    {
+        printf("vowel");
+    }
+    else
+    {
+        printf("consonent");
+    }
+    */
     
 
 
