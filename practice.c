@@ -14,7 +14,7 @@ void main()
     */
 
 
-    //✌️volume of a sphere
+    //✌️#1 volume of a sphere
 
     /*
     float r,vol;
@@ -25,7 +25,7 @@ void main()
     */
 
 
-    //✌️ area of a circle
+    //✌️#2 area of a circle
 
     /*
     float r , area ;
@@ -36,7 +36,7 @@ void main()
     */
 
 
-   //✌️calculate overall percentage of 6 subjects
+   //✌️#3 calculate overall percentage of 6 subjects
 
    /*
    float phy , che , bio , eng , ben , comapp , ov_per;
@@ -57,7 +57,7 @@ void main()
     */
 
 
-   //✌️calculate the simple interest
+   //✌️#4 calculate the simple interest
 
     /*
    float r,t,p,i;
@@ -72,7 +72,7 @@ void main()
    */
 
 
-    //✌️code practuce_2 : just prints the valus of "p" and "q"
+    //✌️#5 code practuce_2 : just prints the valus of "p" and "q"
 
     /*
     int p,q;
@@ -82,7 +82,7 @@ void main()
     /*
 
 
-    //✌️find remainder , here a must be > than b , otherwise code will curse you
+    //✌️#6 find remainder , here a must be > than b , otherwise code will curse you
 
 
     // <note> : if a<b then a % b = a (it's a rele alright !!) //
@@ -106,7 +106,7 @@ void main()
     }
     */
 
-    //✌️code practice_3 : take integer as a input and print half of the taken number
+    //✌️#7 code practice_3 : take integer as a input and print half of the taken number
 
     /*
     int a;
@@ -115,7 +115,7 @@ void main()
     printf("half : %d",a/2);
     */
 
-    //✌️code practice _4 : input a float number and it will print the fractional part
+    //✌️#8 code practice _4 : input a float number and it will print the fractional part
 
     /*
     float a,f;
@@ -128,7 +128,7 @@ void main()
     */
 
 
-    //✌️ code practice_5 : predict the value of "k","l","a","b"
+    //✌️#9 code practice_5 : predict the value of "k","l","a","b"
     // <note> : if you enter cheat code : 69 , it will show you answers , if you enter 00 , it will not show you answers and print "ok!!" and end the code //
 
     /*
@@ -197,7 +197,7 @@ void main()
     */
 
 
-    //✌️fibonacci sequence : a sequence where a number is sum of previous two numbers first and second numers in febonacci sequence are 0,1 . ex : 0,1,1,2,3,5,8,13,etc
+    //✌️#10 fibonacci sequence : a sequence where a number is sum of previous two numbers first and second numers in febonacci sequence are 0,1 . ex : 0,1,1,2,3,5,8,13,etc
 
     /*  
     int i,n,nt,n1=0,n2=1;
@@ -215,7 +215,7 @@ void main()
     */
 
 
-   //✌️swap two numbers using a temporary variable
+   //✌️#11 swap two numbers using a temporary variable
 
 
     /*
@@ -231,7 +231,7 @@ void main()
    */
 
 
-    //✌️find the roots of the quadratic equation
+    //✌️#12 find the roots of the quadratic equation
     
     /*
         <notes>(logic) :
@@ -284,7 +284,7 @@ void main()
    */ 
 
 
-   //✌️count amount of individual digit in a number
+   //✌️#13 count amount of individual digit in a number
 
 
     /*
@@ -300,7 +300,7 @@ void main()
     */
 
 
-   //✌️check whether a character is an aplabet or not
+   //✌️#14 check whether a character is an aplabet or not
 
     
     /*
@@ -319,7 +319,7 @@ void main()
 
 
     
-    //✌️find an alphabet is a vowel or consonent
+    //✌️#15 find an alphabet is a vowel or consonent
 
 
     /*
