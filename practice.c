@@ -343,7 +343,14 @@ void main()
     */
     
 
+    //✌️#16 print A to Z using a loop
 
+
+    /*
+    char c;
+    for(c='A';c<='Z';++c)
+    printf("%c ",c);
+    */
 
 
 
