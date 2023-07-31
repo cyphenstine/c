@@ -353,6 +353,40 @@ void main()
     */
 
 
+    //✌️#17 print uppercase A to Z if input is "u" and lowercase a to z if input is "l" 
+
+
+    /*
+    char c,alph;
+    printf("for uppercase u and for lowercase l : ");
+    scanf("%c",&c);
+    if (c=='u' || c=='U')
+    {
+        for (alph='A';alph<='Z';alph++)
+        {
+             printf("%c ",alph);
+        }
+    }
+    else if (c=='l' || c=='L')
+    {
+        for (alph='a';alph<='z';alph++)
+        {
+            printf("%c ",alph);
+        }
+    }
+    else
+    {
+        printf("\nerror !! your input is not acceptable !!");
+    }
+    */
+
+
+       
+    
+
+
+
+
 
 
     
