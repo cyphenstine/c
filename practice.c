@@ -381,8 +381,35 @@ void main()
     */
 
 
-       
+    //✌️#18 calculate the largest number among three numbers 
+
+
     
+    float a,b,c;
+    printf("enter a : ");
+    scanf("%f",&a);
+    printf("enter b : ");
+    scanf("%f",&b);
+    printf("enter c : ");
+    scanf("%f",&c);
+    if (a>b)
+    {
+        if (b>c)
+        {
+            printf("bigest number is a : %f",a);
+        }
+    }
+    else if (c>b)
+    {
+        if(b>a)
+        {
+            printf("bigest number is c : %f",c);
+        }
+    }
+    else
+    {
+        printf("bigest number is a : %f",b);
+    }
 
 
 
