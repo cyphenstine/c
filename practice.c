@@ -384,7 +384,7 @@ void main()
     //✌️#18 calculate the largest number among three numbers 
 
 
-    
+    /*
     float a,b,c;
     printf("enter a : ");
     scanf("%f",&a);
@@ -410,7 +410,7 @@ void main()
     {
         printf("bigest number is a : %f",b);
     }
-
+    */
 
 
 
