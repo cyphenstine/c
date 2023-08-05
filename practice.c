@@ -411,6 +411,18 @@ void main()
         printf("bigest number is a : %f",b);
     }
     */
+    
+
+
+    //✌️#19 how to print some infinitly
+
+
+    /*
+    while(1)
+    {
+        printf("it's an infinite loop\n");
+    }
+    */
 
 
 
