@@ -129,7 +129,7 @@ void main()
 
 
     //✌️#9 code practice_5 : predict the value of "k","l","a","b"
-    // <note> : if you enter cheat code : 69 , it will show you answers , if you enter 00 , it will not show you answers and print "ok!!" and end the code //
+    // <note> : if you enter cheat code : 69 , it will show you answers , if you enter 00 , it will not show you answers and print "ok!!" and ends the code //
 
     /*
     int i=2,j=3,k,l,ans_1,ans_2;
@@ -423,7 +423,7 @@ void main()
         printf("it's an infinite loop\n");
     }
     */
-   
+
 
 
 
