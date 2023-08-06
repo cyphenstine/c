@@ -4,11 +4,13 @@
 void main()
 {
 
-    // a calculater that could take unlimited intups , but two at a time then after that oparation it will take only one number infinite times and can calculate " sum , difference , multiplication , divition , squre , root , cube , root over 3 "
+    // a calculater that could take unlimited intups , but two at a time then after that oparation it will take only one number infinite times and can calculate " sum , difference , multiplication , divition , remainder , squre , root , cube , root over 3 "
     // you can choose what you wanna do from above options by entering that operation sign that oparation and sometimes writting 
     char opa;
     double x,y,result,nxt,s,sqroot,c,cbroot;
-    printf("what operation to perform : ");
+    int x_1,y_1;
+    printf("squre : s , root : r , cube : c , cuberoot : q , sum : + , diff : - , mul : * , div : /");
+    printf("\nwhat operation to perform : ");
     scanf("%c",&opa);
     if(opa=='+')
     {
@@ -58,6 +60,15 @@ void main()
             printf("result : %lf",result);
         }
     }
+    else if(opa=='%')
+    {
+        printf("enter number : ");
+        scanf("%d",&x_1);
+        printf("enter number : ");
+        scanf("%d",&y_1);
+        result=x_1%y_1;
+        printf("result : %lf",result);
+    }
     else if(opa=='-')
     {        
         printf("enter number : ");
@@ -74,7 +85,7 @@ void main()
             printf("result : %lf",result);
         }
     }
-    else if(opa=='^')
+    else if(opa=='s')
     {
         printf("enter the number : ");
         scanf("%lf",&s);
