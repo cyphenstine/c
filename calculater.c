@@ -7,8 +7,8 @@ void main()
     // a calculater that could take unlimited intups , but two at a time then after that oparation it will take only one number infinite times and can calculate " sum , difference , multiplication , divition , squre , root , cube , root over 3 "
     // you can choose what you wanna do from above options by entering that operation sign that oparation and sometimes writting 
     char opa;
-    double x,y,result,nxt,s,sqroot,q;
-    printf("what operation do you want : ");
+    double x,y,result,nxt,s,sqroot,c,cbroot;
+    printf("what operation to perform : ");
     scanf("%c",&opa);
     if(opa=='+')
     {
@@ -88,14 +88,20 @@ void main()
         sqroot=sqrt(sqroot);
         printf("squre root : %lf",sqroot);
     }
-    else if(opa=='q')
+    else if(opa=='c')
     {
         printf("enter the number : ");
-        scanf("%lf",&q);
-        q=q*q*q;
-        printf("qube : %lf",q);
+        scanf("%lf",&c);
+        c=c*c*c;
+        printf("qube : %lf",c);
     }
-
+    else if(opa=='q')
+    {
+        printf("enter number : ");
+        scanf("%lf",&cbroot);
+        cbroot=cbrt(cbroot);
+        printf("squre root : %lf",cbroot);
+    }
 
 
 
