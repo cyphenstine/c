@@ -199,6 +199,7 @@ void main()
 
     //✌️#10 fibonacci sequence : a sequence where a number is sum of previous two numbers first and second numers in febonacci sequence are 0,1 . ex : 0,1,1,2,3,5,8,13,etc
 
+
     /*  
     int i,n,nt,n1=0,n2=1;
     nt=n1+n2;
@@ -207,10 +208,10 @@ void main()
     printf("febinacci sequence : %d %d ",n1,n2);
     for (i=3;i<=n;++i)
     {
-        printf("%d ",nt);
+        printf("%d ",nt); 
         n1=n2;
         n2=nt;
-        nt=n1+n2;    
+        nt=n1+n2;           
     }
     */
 
