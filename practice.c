@@ -428,7 +428,7 @@ void main()
    //check if it is a prime number or not
    
 
-
+    /*
    int n; 
    printf("enter number : ");
    scanf("%d" , & n);
@@ -459,7 +459,7 @@ void main()
    {
        printf("prime");
    }
-
+    */
 
 
 
