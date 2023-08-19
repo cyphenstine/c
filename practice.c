@@ -414,7 +414,6 @@ void main()
     */
     
 
-
     //✌️#19 how to print some infinitly
 
 
@@ -424,6 +423,43 @@ void main()
         printf("it's an infinite loop\n");
     }
     */
+
+
+   //check if it is a prime number or not
+   
+
+
+   int n; 
+   printf("enter number : ");
+   scanf("%d" , & n);
+   if(n>3)
+   {
+       if (n==5)
+       {
+           printf("prime");
+       }
+       else if (n%2==0)
+       {
+           printf("not prime");
+       }
+       else if (n%3==0)
+       {
+           printf("not prime");
+       }
+       else if (n%5==0)
+       {
+           printf("not prime");
+       }
+       else 
+       {
+            printf("prime");
+       }
+   }
+   else 
+   {
+       printf("prime");
+   }
+
 
 
 
