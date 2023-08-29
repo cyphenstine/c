@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 #include<math.h>
-void main()
+int main()
 {
 
     //✌️code practice_1 : divition
@@ -462,6 +462,28 @@ void main()
     */
 
 
+   // #19 calculate the salary :
+    // elements : basic salary , DA , MA(5% of bacic) , HRA(3% of bacic) , pretax(0.5% of bacic)
+
+
+    /*
+    float basic , da , ma , hra , pt , total;
+    printf("enter bacic salary : ");
+    scanf("%f",& basic);
+    printf("enter DA : ");
+    scanf("%f", & da);
+    ma = (basic*5)/100;
+    hra = (basic*3)/100;
+    pt = (basic*5)/1000;
+    total = basic + da + ma + hra + pt;
+    printf("%f",total);
+    */
+
+
+
+
+
+
 
 
 
@@ -497,5 +519,5 @@ void main()
 
 
 
-
+    return(0);
 }
