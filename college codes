@@ -16,3 +16,19 @@ int main()
 	printf("total salary : %f", total);
 	return(0);
 }
+
+
+// #2 simple interest calculater
+
+#include <stdio.h>
+int main()
+{
+	float p , t , r , i , total;
+	printf("enter principle , time , interest rate : \n");
+	scanf("%f %f %f",&p , &t ,&r);
+	i = (p*t*r)/100;
+	printf("interest : %f", i);
+	total = i + p;
+	printf("\nnow total : %f", total);		
+	return(0);
+}
