@@ -414,7 +414,7 @@ int main()
     */
     
 
-    //✌️#19 how to print some infinitly
+    //✌️#19 how to print something infinitly
 
 
     /*
@@ -425,7 +425,7 @@ int main()
     */
 
 
-   //check if it is a prime number or not
+   // ✌️#20 check if it is a prime number or not
    
 
     /*
@@ -462,21 +462,23 @@ int main()
     */
 
 
-   // #19 calculate the salary :
+   // ✌️#21 calculate the salary :
     // elements : basic salary , DA , MA(5% of bacic) , HRA(3% of bacic) , pretax(0.5% of bacic)
 
 
     /*
     float basic , da , ma , hra , pt , total;
-    printf("enter bacic salary : ");
-    scanf("%f",& basic);
-    printf("enter DA : ");
-    scanf("%f", & da);
-    ma = (basic*5)/100;
-    hra = (basic*3)/100;
-    pt = (basic*5)/1000;
-    total = basic + da + ma + hra + pt;
-    printf("%f",total);
+	printf("enter basic salary : ");
+	scanf("%f", & basic);
+	printf("enter da(in percentage) : ");
+	scanf("%f", & da);
+	da = (basic*da)/100;
+	ma = (basic*5)/100;
+	hra = (basic*3)/100;
+	pt = (basic*5)/1000;
+	total = basic + da + ma + hra + pt;
+	printf("total salary : %f", total);
+	return(0);
     */
 
 
