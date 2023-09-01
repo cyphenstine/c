@@ -462,7 +462,7 @@ int main()
     */
 
 
-   // ✌️#21 calculate the salary :
+    // ✌️#21 calculate the salary :
     // elements : basic salary , DA , MA(5% of bacic) , HRA(3% of bacic) , pretax(0.5% of bacic)
 
 
@@ -480,6 +480,47 @@ int main()
 	printf("total salary : %f", total);
 	return(0);
     */
+
+
+    //grade system
+
+
+    /*
+    float num;
+    printf("enter your marks : ");
+    scanf("%f" , & num);
+    if (num >= 90)
+    {
+        printf("your grade : O");
+    }
+    else if (num >= 80)
+    {
+        printf("your grade : A");
+    }
+    else if (num >= 70)
+    {
+        printf("your grade : B");
+    }
+    else if (num >= 60)
+    {
+        printf("your grade : C");
+    }
+    else if (num >= 50)
+    {
+        printf("your grade : D");
+    }
+    else if (num >= 40)
+    {
+        printf("your grade : E");
+    }
+    else
+    {
+        printf("sorry , you failed");
+    }
+    */
+
+
+
 
 
 
