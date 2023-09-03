@@ -525,9 +525,54 @@ int main()
 
     /*
     float a , b , c;
-    printf("enter a , b , c : \n");
-    scanf ("%f  %f  %f" , &a , &b , &c);
-    if (a>b && a>c)
+    printf("enter a : ");
+    scanf ("%f" , &a);
+    printf("enter b : ");
+    scanf ("%f" , &b);
+    printf("enter c : ");
+    scanf ("%f" , &c);
+    
+    if (a == b && b == c)
+    {
+       printf("a , b and c are equal !!");
+    }
+    else if (a == b)
+    {
+        printf("a and b are equal !!");
+        if (c>b)
+        {
+            printf("\nc is the bigest , by the way !!");
+        }
+        else 
+        {
+            printf("\na and b are bigger than c !!");
+        }
+    }
+    else if (c == b)
+    {
+        printf("b and c is equal !!");
+        if (a>b)
+        {
+            printf("\na is the bigest , by the way !!");
+        }
+        else 
+        {
+            printf("\nb and c are bigger than a !!");
+        }
+    }
+    else if (a == c)
+    {
+        printf("a and c is equal !!");
+        if (b>c)
+        {
+            printf("\nb is the bigest , by the way !!");
+        }
+        else 
+        {
+            printf("\na and c are bigger than b !!");
+        }
+    }
+    else if (a>b && a>c)
     {
         printf("a is the bigest");
     }
@@ -535,27 +580,12 @@ int main()
     {
         printf("b is the bigest");
     }
-    else if (a == b && b == c)
-    {
-       printf("a , b and c are equal !!");
-    }
-    else if (a == b)
-    {
-        printf("a and b is equal !!");
-    }
-    else if (c == b)
-    {
-        printf("b and c is equal !!");
-    }
-    else if (a == c)
-    {
-        printf("a and c is equal !!");
-    }
     else
     {
         printf("c is the bigest");
     }
     */
+ 
 
 
 
