@@ -382,7 +382,7 @@ int main()
     */
 
 
-    //✌️#18 calculate the largest number among three numbers 
+    //✌️#18 calculate the largest number among three numbers (without using logical operaters)
 
 
     /*
@@ -516,6 +516,44 @@ int main()
     else
     {
         printf("sorry , you failed");
+    }
+    */
+
+
+    //✌️#23 calculate the largest number among three numbers (using logical operaters)
+
+
+    /*
+    float a , b , c;
+    printf("enter a , b , c : \n");
+    scanf ("%f  %f  %f" , &a , &b , &c);
+    if (a>b && a>c)
+    {
+        printf("a is the bigest");
+    }
+    else if (b>a && b>c)
+    {
+        printf("b is the bigest");
+    }
+    else if (a == b && b == c)
+    {
+       printf("a , b and c are equal !!");
+    }
+    else if (a == b)
+    {
+        printf("a and b is equal !!");
+    }
+    else if (c == b)
+    {
+        printf("b and c is equal !!");
+    }
+    else if (a == c)
+    {
+        printf("a and c is equal !!");
+    }
+    else
+    {
+        printf("c is the bigest");
     }
     */
 
