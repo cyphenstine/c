@@ -520,7 +520,7 @@ int main()
     */
 
 
-    //✌️#23 calculate the largest number among three numbers (using logical operaters)
+    // ✌️#23 calculate the largest number among three numbers (using logical operaters)
 
 
     /*
@@ -585,9 +585,62 @@ int main()
         printf("c is the bigest");
     }
     */
- 
+   
+
+   // ✌️#24 check if the number is palindromic or not
+   // approach : first i will reverse the number and store it to a variable , then compare with the first variable 
 
 
+    /*
+    int n , rem , rem2   ;
+    printf ("enter the number : ");
+    scanf("%d" , & n);
+  
+    while (n > 10)
+    {
+        rem = n%10;
+        rem2 = rem * 10;
+    }
+    printf ("%d", & rem2);
+    */
+
+
+    // ✌️#25 make a calculater using switch case
+
+
+    /*
+    int a , b , o , r;
+    printf("enter two numbers : \n");
+    scanf("%d %d" , & a , & b);
+    printf("operation : ");
+    scanf("%d" , & o);
+    switch (o)
+    {
+        case 1 :
+            r = a+b;
+            printf("%d" , r);
+            break;
+
+        case 2 :
+            r = a-b;
+            printf("%d" , r);
+            break;
+
+        case 3 :
+            r = a*b;
+            printf("%d" , r);
+            break;
+
+        case 4 :
+            r = a/b;
+            printf("%d" , r);
+            break;
+    
+        default:
+            printf("some thing went wrong");
+            break;
+    }
+    */
 
 
 
