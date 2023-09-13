@@ -609,7 +609,7 @@ int main()
 
 
     /*
-    int a , b , o , r;
+    int a , b , r , o;
     printf("enter two numbers : \n");
     scanf("%d %d" , & a , & b);
     printf("operation : ");
@@ -642,11 +642,64 @@ int main()
     }
     */
 
+    /*
+    float a , b , r;
+    char op;
+    printf("enter a number : ");
+    scanf("%f", & a);
+    printf("enter another number ");
+    scanf("%f", & b);
+    printf("enter operator : ");
+    scanf("%c", & op);
+    switch (op)
+    {
+    case '+':
+        
+        break;
+    
+    default:
+        break;
+    }
+    */
+
+    // ✌️#26 electricity bill calculater
 
 
 
+    float unit , unit1 , bill , sc;
+    printf("enter your unit consumtion : ");
+    scanf("%f", & unit);
+    if (unit > 400)
+    {
+        unit1 = unit - 300;
+        bill = 200 * .8 + 100 * .9 + unit1 * 1;
+        sc = (unit * 15)/100;
+        bill = bill + sc;
+    }
+    else if (unit > 300)
+    {
+        unit1 = unit - 300;
+        bill = 200 * .8 + 100 * .9 + unit1 * 1 ;
+    }
+    else if (unit = 300)
+    {
+        bill = 200 * .8 + 100 * .9;
+    }
+    else if (unit = 200)
+    {
+        bill = 200 * .8;
+    }
+    bill = bill + 100;
+    printf("your bill : %f rs", bill);
+
+    
+    
 
 
+
+    
+
+    
 
 
 
