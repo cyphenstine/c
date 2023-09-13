@@ -665,7 +665,7 @@ int main()
     // ✌️#26 electricity bill calculater
 
 
-
+    /*
     float unit , unit1 , bill , sc;
     printf("enter your unit consumtion : ");
     scanf("%f", & unit);
@@ -691,7 +691,7 @@ int main()
     }
     bill = bill + 100;
     printf("your bill : %f rs", bill);
-
+    */
     
     
 
