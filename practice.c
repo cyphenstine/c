@@ -591,7 +591,6 @@ int main()
    // approach : first i will reverse the number and store it to a variable , then compare with the first variable 
 
 
-    
     int n , rem , rev = 0 , n1;
     printf ("enter the number : ");
     scanf("%d" , & n);
@@ -610,10 +609,7 @@ int main()
     {
         printf("not palindromic number");
     }
-    
-    
-    
-
+   
 
     // ✌️#25 make a calculater using switch case
 
