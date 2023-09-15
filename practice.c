@@ -591,18 +591,28 @@ int main()
    // approach : first i will reverse the number and store it to a variable , then compare with the first variable 
 
 
-    /*
-    int n , rem , rem2   ;
+    
+    int n , rem , rev = 0 , n1;
     printf ("enter the number : ");
     scanf("%d" , & n);
-  
-    while (n > 10)
+    n1 = n;
+    while (n > 0)
     {
-        rem = n%10;
-        rem2 = rem * 10;
+        rem = n % 10;
+        rev = (rev * 10) + rem;
+        n = n / 10;
+    }    
+    if( n1 == rev)
+    {
+        printf("palindromic number");
     }
-    printf ("%d", & rem2);
-    */
+    else 
+    {
+        printf("not palindromic number");
+    }
+    
+    
+    
 
 
     // ✌️#25 make a calculater using switch case
@@ -692,6 +702,13 @@ int main()
     bill = bill + 100;
     printf("your bill : %f rs", bill);
     */
+
+
+
+
+
+
+
     
     
 
