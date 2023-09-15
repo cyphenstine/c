@@ -609,7 +609,7 @@ int main()
     {
         printf("not palindromic number");
     }
-   
+    
 
     // ✌️#25 make a calculater using switch case
 
@@ -698,53 +698,6 @@ int main()
     bill = bill + 100;
     printf("your bill : %f rs", bill);
     */
-
-
-
-
-
-
-
-    
-    
-
-
-
-    
-
-    
-
-
-
-
-
-    
-
-    
-    
-    
-
-
-
-
-    
-    
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
 
 
 
