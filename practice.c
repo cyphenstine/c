@@ -4,7 +4,7 @@
 int main()
 {
 
-    //✌️code practice_1 : divition
+    //✌️#1 code practice_1 : divition
 
     /*
     float x = 5 ;
@@ -14,7 +14,7 @@ int main()
     */
 
 
-    //✌️#1 volume of a sphere
+    //✌️#2 volume of a sphere
 
     /*
     float r,vol;
@@ -25,7 +25,7 @@ int main()
     */
 
 
-    //✌️#2 area of a circle
+    //✌️#3 area of a circle
 
     /*
     float r , area ;
@@ -36,7 +36,7 @@ int main()
     */
 
 
-   //✌️#3 calculate overall percentage of 6 subjects
+   //✌️#4 calculate overall percentage of 6 subjects
 
    /*
    float phy , che , bio , eng , ben , comapp , ov_per;
@@ -57,7 +57,7 @@ int main()
     */
 
 
-   //✌️#4 calculate the simple interest
+   //✌️#5 calculate the simple interest
 
     /*
    float r,t,p,i;
@@ -72,7 +72,7 @@ int main()
    */
 
 
-    //✌️#5 code practuce_2 : just prints the valus of "p" and "q"
+    //✌️#6 code practuce_2 : just prints the valus of "p" and "q"
 
     /*
     int p,q;
@@ -235,7 +235,7 @@ int main()
     //✌️#12 find the roots of the quadratic equation
     
     /*
-        <notes>(logic) :
+    //logic :
 
             1) "b^2-4ac" is called "discriminant"
             2)if the discriminant > 0 ,then roots are real and different
@@ -251,7 +251,7 @@ int main()
                     root_2 : (-b/2a)-[i*sqrt-(b^2-4ac)/2a]
     */   
     
-
+   // code :
    /*
    double a,b,c,discri,root_1,root_2,real_part,imag_part;
    printf("enter a : ");
@@ -591,16 +591,20 @@ int main()
    // approach : first i will reverse the number and store it to a variable , then compare with the first variable 
 
 
+    /*
     int n , rem , rev = 0 , n1;
     printf ("enter the number : ");
     scanf("%d" , & n);
+    // coping n to n1
     n1 = n;
+    // reversing 
     while (n > 0)
     {
         rem = n % 10;
         rev = (rev * 10) + rem;
         n = n / 10;
-    }    
+    } 
+    // compairing rev and n1 if number is palindromic or not
     if( n1 == rev)
     {
         printf("palindromic number");
@@ -609,37 +613,42 @@ int main()
     {
         printf("not palindromic number");
     }
-    
+    */
+
 
     // ✌️#25 make a calculater using switch case
 
 
     /*
-    int a , b , r , o;
-    printf("enter two numbers : \n");
-    scanf("%d %d" , & a , & b);
+    float a , b , r;
+    char o;
+    printf("enter 1st number : ");
+    scanf("%f", &a);
+    printf("enter 2st number : ");
+    scanf("%f", &b);
+    fflush(stdin);
     printf("operation : ");
-    scanf("%d" , & o);
+    scanf("%c", &o);
     switch (o)
     {
-        case 1 :
+        case '+' :
             r = a+b;
-            printf("%d" , r);
+            printf("result : %f" , r);
             break;
 
-        case 2 :
+        case '-' :
             r = a-b;
-            printf("%d" , r);
+            printf("result : %f" , r);
             break;
 
-        case 3 :
+        case '*' :
             r = a*b;
-            printf("%d" , r);
+            printf("result : %f" , r);
             break;
 
-        case 4 :
+        case '/' :
             r = a/b;
-            printf("%d" , r);
+            printf("result : %f" , r);
             break;
     
         default:
@@ -648,25 +657,6 @@ int main()
     }
     */
 
-    /*
-    float a , b , r;
-    char op;
-    printf("enter a number : ");
-    scanf("%f", & a);
-    printf("enter another number ");
-    scanf("%f", & b);
-    printf("enter operator : ");
-    scanf("%c", & op);
-    switch (op)
-    {
-    case '+':
-        
-        break;
-    
-    default:
-        break;
-    }
-    */
 
     // ✌️#26 electricity bill calculater
 
@@ -694,10 +684,40 @@ int main()
     else if (unit = 200)
     {
         bill = 200 * .8;
-    }
+    } 
     bill = bill + 100;
     printf("your bill : %f rs", bill);
     */
+
+
+    // ✌️#27 reverse a number 
+
+
+    /*
+    int n , rem , rev=0;
+    printf("enter a number : ");
+    scanf("%d", &n);
+    while(n>0)
+    {
+        rem = n%10;
+        rev = rev * 10 + rem;
+        n = n/10;
+    }
+    printf("reverse : %d", rev);
+    */
+    
+
+    // ✌️#28 sum of digits in a number 
+
+
+    /*
+    int n;
+    printf("enter number : ");
+    scanf("%d", &n);
+    */
+    
+
+
 
 
 
