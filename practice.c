@@ -754,7 +754,7 @@ int main()
     */
     
 
-    
+    /*
     int n , i , j , n1;
     char c='*';
     printf("rows : ");
@@ -770,7 +770,7 @@ int main()
         printf("\n");
          
     }    
-    
+    */
     
 
 
