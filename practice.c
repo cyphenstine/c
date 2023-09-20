@@ -728,7 +728,7 @@ int main()
 
 
     /*
-    int n , i , r ,j;
+    int n , i , j;
     char c='*';
     printf("rows : ");
     scanf("%d", &n);
@@ -754,24 +754,23 @@ int main()
     */
     
 
-    /*
-    int n , i , r ,j , n1;
+    
+    int n , i , j , n1;
     char c='*';
-    printf("rows & cols : ");
+    printf("rows : ");
     scanf("%d", &n);
-    n1=n;
-
+    printf("cols : ");
+    scanf("%d", &n1);
     for(i=1;i<=n;i++)
     {
         for(j=1;j<=n1;j++)
         {
-            printf("%c ", c);
-            
+            printf("%c ", c);           
         }
         printf("\n");
          
     }    
-    */
+    
     
 
 
