@@ -720,14 +720,14 @@ int main()
     /*
     pattern : 
     *
-    **
-    ***
-    ****
-    *****
+    * *
+    * * *
+    * * * *
+    * * * * *
     */
 
 
-    
+    /*
     int n , i , r ,j;
     char c='*';
     printf("rows : ");
@@ -741,7 +741,7 @@ int main()
         }
         printf("\n"); 
     }
-    
+    */
 
 
     /*
@@ -755,18 +755,21 @@ int main()
     
 
     /*
-    int n , i , r ,j;
+    int n , i , r ,j , n1;
     char c='*';
-    printf("rows : ");
+    printf("rows & cols : ");
     scanf("%d", &n);
+    n1=n;
 
     for(i=1;i<=n;i++)
     {
-        for(j=n;)
+        for(j=1;j<=n1;j++)
         {
             printf("%c ", c);
+            
         }
-        printf("\n"); 
+        printf("\n");
+         
     }    
     */
     
