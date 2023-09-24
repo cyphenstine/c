@@ -718,7 +718,7 @@ int main()
 
     // ✌️#29 pattern printing
     /*
-    pattern : 
+    pattern : right angle triangle
     *
     * *
     * * *
@@ -745,7 +745,7 @@ int main()
 
 
     /*
-    pattern :
+    pattern : box
     * * * * *
     * * * * *
     * * * * *
@@ -771,7 +771,7 @@ int main()
     
 
     /*
-    pattern:
+    pattern: equilateral triangle
         *
        * *
       * * *
@@ -801,7 +801,7 @@ int main()
 
 
     /*
-    pattern :
+    pattern : reverse right angle triangle
     * * * * * 
     * * * *
     * * *
@@ -825,7 +825,7 @@ int main()
     */
 
     /*
-    pattern :
+    pattern : reverse equilateral triangle
     * * * * *
      * * * *
       * * *
@@ -854,7 +854,7 @@ int main()
 
 
     /*
-    pattern :
+    pattern : window / empty box
     * * * * *
     *       *
     *       *
@@ -884,7 +884,21 @@ int main()
         printf("\n");
     }
     */
+
+
+    /*
+    pattern : door
+    * * * * * *
+    *    *    *
+    *    *    *
+    *    *    *
+    *    *    *
+    * * * * * *
+    */
     
+
+
+
     
 
 
