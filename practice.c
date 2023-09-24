@@ -755,17 +755,14 @@ int main()
     
 
     /*
-    int n , i , j , n1;
-    char c='*';
+    int n , i , j;
     printf("rows : ");
     scanf("%d", &n);
-    printf("cols : ");
-    scanf("%d", &n1);
     for(i=1;i<=n;i++)
     {
-        for(j=1;j<=n1;j++)
+        for(j=1;j<=n;j++)
         {
-            printf("%c ", c);           
+            printf("*");           
         }
         printf("\n");
          
@@ -827,7 +824,66 @@ int main()
     }
     */
 
+    /*
+    pattern :
+    * * * * *
+     * * * *
+      * * *
+       * *
+        *   
+    */
 
+
+    /*
+    int n , i , j , k;
+    printf("enter row & coloum : ");
+    scanf("%d", &n);
+    for(i=1 ; i<=n ; i++)
+    {
+        for(j=1 ; j<=i ; j++)
+        {
+            printf(" ");
+        }
+        for(k=n ; k>=i ; k--)
+        {
+            printf(" *");
+        }
+        printf("\n");
+    }
+    */
+
+
+    /*
+    pattern :
+    * * * * *
+    *       *
+    *       *
+    *       *
+    * * * * *
+    */
+
+
+    /*
+    int n , i , j , k;
+    printf("enter row : ");
+    scanf("%d", &n);
+    for(i=1 ; i<=n ; i++)
+    {
+        for (j=1 ; j<=n ; j++)
+        {
+            
+            if(i>1 && i<n && j>1 && j<n)
+            {
+                printf("  ");
+            }
+            else
+            {
+                printf(" *");
+            }
+        }
+        printf("\n");
+    }
+    */
     
     
 
