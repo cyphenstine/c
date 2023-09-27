@@ -1,9 +1,9 @@
-#include<stdio.h>
-#include<math.h>
+#include <stdio.h>
+#include <math.h>
 int main()
 {
 
-    //✌️#1 code practice_1 : divition
+    // ✌️#1 code practice_1 : divition
 
     /*
     float x = 5 ;
@@ -12,8 +12,7 @@ int main()
     printf("%f",z) ;
     */
 
-
-    //✌️#2 volume of a sphere
+    // ✌️#2 volume of a sphere
 
     /*
     float r,vol;
@@ -23,8 +22,7 @@ int main()
     printf("volume : %f",vol);
     */
 
-
-    //✌️#3 area of a circle
+    // ✌️#3 area of a circle
 
     /*
     float r , area ;
@@ -34,44 +32,43 @@ int main()
     printf("Area : %f",area);
     */
 
-
-   //✌️#4 calculate overall percentage of 6 subjects
-
-   /*
-   float phy , che , bio , eng , ben , comapp , ov_per;
-   printf("enter marks of physics : ");
-   scanf("%f",&phy);
-   printf("enter marks of chemistry : ");
-   scanf("%f",&che);
-   printf("enter marks of biology : ");
-   scanf("%f",&bio);
-   printf("enter marks of english : ");
-   scanf("%f",&eng);
-   printf("enter marks of bengali : ");
-   scanf("%f",&ben);
-   printf("enter marks of computer application : ");
-   scanf("%f",&comapp);
-    ov_per = (phy+che+bio+eng+ben+comapp)/6;
-    printf("\noverall persentage : %f",ov_per);
-    */
-
-
-   //✌️#5 calculate the simple interest
+    // ✌️#4 calculate overall percentage of 6 subjects
 
     /*
-   float r,t,p,i;
-   printf("enter interesr rate : ");
-   scanf("%f",&r);
-   printf("enter time(in years) : ");
-   scanf("%f",&t);
-   printf("enter principle amount : ");
-   scanf("%f",&p);
-   i=(p*t*r)/100;
-   printf("interesr : %f",i);
-   */
+    float phy , che , bio , eng , ben , comapp , ov_per;
+    printf("enter marks of physics : ");
+    scanf("%f",&phy);
+    printf("enter marks of chemistry : ");
+    scanf("%f",&che);
+    printf("enter marks of biology : ");
+    scanf("%f",&bio);
+    printf("enter marks of english : ");
+    scanf("%f",&eng);
+    printf("enter marks of bengali : ");
+    scanf("%f",&ben);
+    printf("enter marks of computer application : ");
+    scanf("%f",&comapp);
+     ov_per = (phy+che+bio+eng+ben+comapp)/6;
+     printf("\noverall persentage : %f",ov_per);
+     */
 
+    // ✌️#5 calculate the simple interest
 
-    //✌️#6 code practuce_2 : just prints the valus of "p" and "q"
+    /*
+    float r,t,p,i,tot;
+    printf("enter interest rate : ");
+    scanf("%f",&r);
+    printf("enter time(in years) : ");
+    scanf("%f",&t);
+    printf("enter principle amount : ");
+    scanf("%f",&p);
+    i=(p*t*r)/100;
+    tot=i+p;
+    printf("interest : %f",i);
+    printf("\ntotal(interest + principle) : %f",tot);
+    */
+
+    // ✌️#6 code practuce_2 : just prints the valus of "p" and "q"
 
     /*
     int p,q;
@@ -85,7 +82,7 @@ int main()
 
 
     // <note> : if a<b then a % b = a (it's a rele alright !!) //
-    
+
 
     /*
     int a,b,r;
@@ -105,7 +102,7 @@ int main()
     }
     */
 
-    //✌️#7 code practice_3 : take integer as a input and print half of the taken number
+    // ✌️#7 code practice_3 : take integer as a input and print half of the taken number
 
     /*
     int a;
@@ -114,7 +111,7 @@ int main()
     printf("half : %d",a/2);
     */
 
-    //✌️#8 code practice _4 : input a float number and it will print the fractional part
+    // ✌️#8 code practice _4 : input a float number and it will print the fractional part
 
     /*
     float a,f;
@@ -126,9 +123,8 @@ int main()
     printf("\nfractional part : %f",f);
     */
 
-
-    //✌️#9 code practice_5 : predict the value of "k","l","a","b"
-    // <note> : if you enter cheat code : 69 , it will show you answers , if you enter 00 , it will not show you answers and print "ok!!" and ends the code //
+    // ✌️#9 code practice_5 : predict the value of "k","l","a","b"
+    //  <note> : if you enter cheat code : 69 , it will show you answers , if you enter 00 , it will not show you answers and print "ok!!" and ends the code //
 
     /*
     int i=2,j=3,k,l,ans_1,ans_2;
@@ -189,15 +185,13 @@ int main()
     {
         printf("%d %d %f %f",k,l,a,b);
     }
-    else if(code==code_for_not_showing) 
+    else if(code==code_for_not_showing)
     {
         printf("\nok!!");
     }
     */
 
-
-    //✌️#10 fibonacci sequence : a sequence where a number is sum of previous two numbers first and second numers in febonacci sequence are 0,1 . ex : 0,1,1,2,3,5,8,13,etc
-
+    // ✌️#10 fibonacci sequence : a sequence where a number is sum of previous two numbers first and second numers in febonacci sequence are 0,1 . ex : 0,1,1,2,3,5,8,13,etc
 
     /*
     int i=3,n,nt,n1=0,n2=1;
@@ -209,14 +203,12 @@ int main()
         nt=n1+n2;
         printf("%d ",nt);
         n1=n2;
-        n2=nt; 
-        i++;          
+        n2=nt;
+        i++;
     }
     */
 
-
-   //✌️#11 swap two numbers using a temporary variable
-
+    // ✌️#11 swap two numbers using a temporary variable
 
     /*
    int a,b,temp_var;
@@ -230,62 +222,59 @@ int main()
    printf("\nnow 1st number and 2nd number : %d , %d",a,b);
    */
 
+    // ✌️#12 find the roots of the quadratic equation
 
-    //✌️#12 find the roots of the quadratic equation
-    
     /*
     //logic :
 
             1) "b^2-4ac" is called "discriminant"
             2)if the discriminant > 0 ,then roots are real and different
-                then : 
+                then :
                     root_1 : -b+sqrt(b^2-4ac)/2a
                     root_2 : -b-sqrt(b^2-4ac)/2a
             3)if the discriminant = 0 ,then roots are real and equal
-                then : 
+                then :
                     root_1=root_2=-b/2a
-            4)if the discriminant < 0 ,then the roots are complex and different 
-                then : 
+            4)if the discriminant < 0 ,then the roots are complex and different
+                then :
                     root_1 : (-b/2a)+[i*sqrt-(b^2-4ac)/2a]
                     root_2 : (-b/2a)-[i*sqrt-(b^2-4ac)/2a]
-    */   
-    
-   // code :
-   /*
-   double a,b,c,discri,root_1,root_2,real_part,imag_part;
-   printf("enter a : ");
-   scanf("%lf",&a);
-   printf("\nenter b : ");
-   scanf("%lf",&b);
-   printf("\nenter c : ");
-   scanf("%lf",&c);
-   discri=b*b-4*a*c;
-   //real and different roots
-   if (discri>0)
-   {
-        root_1=(-b+sqrt(discri))/(2*a);
-        root_2=(-b-sqrt(discri))/(2*a);
-        printf("\nroot_1 & root_2 : %lf , %lf",root_1,root_2);
-   }
-   //common and real roots
-   else if (discri==0)
-   {
-        root_1=root_2=-b/2*a;
-        printf("\nroot : %lf",root_1);
-   }
-   //complex roots(here i did'nt understand a shit !! what's going on !! i just copied the logic)
-   else
-   {
-        real_part=-b/(2*a);
-        imag_part=sqrt(-discri)/(2*a);
-        printf("\nroot_1 : %lf+%lfi",real_part,imag_part);
-        printf("\nroot_2 : %lf-%lfi",real_part,imag_part);
-   }
-   */ 
+    */
 
+    // code :
+    /*
+    double a,b,c,discri,root_1,root_2,real_part,imag_part;
+    printf("enter a : ");
+    scanf("%lf",&a);
+    printf("\nenter b : ");
+    scanf("%lf",&b);
+    printf("\nenter c : ");
+    scanf("%lf",&c);
+    discri=b*b-4*a*c;
+    //real and different roots
+    if (discri>0)
+    {
+         root_1=(-b+sqrt(discri))/(2*a);
+         root_2=(-b-sqrt(discri))/(2*a);
+         printf("\nroot_1 & root_2 : %lf , %lf",root_1,root_2);
+    }
+    //common and real roots
+    else if (discri==0)
+    {
+         root_1=root_2=-b/2*a;
+         printf("\nroot : %lf",root_1);
+    }
+    //complex roots(here i did'nt understand a shit !! what's going on !! i just copied the logic)
+    else
+    {
+         real_part=-b/(2*a);
+         imag_part=sqrt(-discri)/(2*a);
+         printf("\nroot_1 : %lf+%lfi",real_part,imag_part);
+         printf("\nroot_2 : %lf-%lfi",real_part,imag_part);
+    }
+    */
 
-   //✌️#13 count amount of individual digit in a number
-
+    // ✌️#13 count amount of individual digit in a number
 
     /*
     long long n , count=0 ;
@@ -299,10 +288,8 @@ int main()
     printf("\nthe total number of digits were : %lld",count);
     */
 
+    // ✌️#14 check whether a character is an aplabet or not
 
-   //✌️#14 check whether a character is an aplabet or not
-
-    
     /*
     char c;
     printf("enter the character : ");
@@ -317,10 +304,7 @@ int main()
     }
     */
 
-
-    
-    //✌️#15 find an alphabet is a vowel or consonent
-
+    // ✌️#15 find an alphabet is a vowel or consonent
 
     /*
     char c,up_c_vo,lo_c_vo;
@@ -341,10 +325,8 @@ int main()
         printf("consonent");
     }
     */
-    
 
-    //✌️#16 print A to Z using a loop
-
+    // ✌️#16 print A to Z using a loop
 
     /*
     char c;
@@ -352,9 +334,7 @@ int main()
     printf("%c ",c);
     */
 
-
-    //✌️#17 print uppercase A to Z if input is "u" and lowercase a to z if input is "l" 
-
+    // ✌️#17 print uppercase A to Z if input is "u" and lowercase a to z if input is "l"
 
     /*
     char c,alph;
@@ -380,9 +360,7 @@ int main()
     }
     */
 
-
-    //✌️#18 calculate the largest number among three numbers (without using logical operaters)
-
+    // ✌️#18 calculate the largest number among three numbers (without using logical operaters)
 
     /*
     float a,b,c;
@@ -411,10 +389,8 @@ int main()
         printf("bigest number is a : %f",b);
     }
     */
-    
 
-    //✌️#19 how to print something infinitly
-
+    // ✌️#19 how to print something infinitly
 
     /*
     while(1)
@@ -423,12 +399,10 @@ int main()
     }
     */
 
-
-   // ✌️#20 check if it is a prime number or not
-   
+    // ✌️#20 check if it is a prime number or not
 
     /*
-   int n; 
+   int n;
    printf("enter number : ");
    scanf("%d" , & n);
    if(n>3)
@@ -449,40 +423,36 @@ int main()
        {
            printf("not prime");
        }
-       else 
+       else
        {
             printf("prime");
        }
    }
-   else 
+   else
    {
        printf("prime");
    }
     */
 
-
     // ✌️#21 calculate the salary :
     // elements : basic salary , DA , MA(5% of bacic) , HRA(3% of bacic) , pretax(0.5% of bacic)
 
-
     /*
     float basic , da , ma , hra , pt , total;
-	printf("enter basic salary : ");
-	scanf("%f", & basic);
-	printf("enter da(in percentage) : ");
-	scanf("%f", & da);
-	da = (basic*da)/100;
-	ma = (basic*5)/100;
-	hra = (basic*3)/100;
-	pt = (basic*5)/1000;
-	total = basic + da + ma + hra + pt;
-	printf("total salary : %f", total);
-	return(0);
+    printf("enter basic salary : ");
+    scanf("%f", & basic);
+    printf("enter da(in percentage) : ");
+    scanf("%f", & da);
+    da = (basic*da)/100;
+    ma = (basic*5)/100;
+    hra = (basic*3)/100;
+    pt = (basic*5)/1000;
+    total = basic + da + ma + hra + pt;
+    printf("total salary : %f", total);
+    return(0);
     */
 
-
     // ✌️#22 grade system
-
 
     /*
     float num;
@@ -518,9 +488,7 @@ int main()
     }
     */
 
-
     // ✌️#23 calculate the largest number among three numbers (using logical operaters)
-
 
     /*
     float a , b , c;
@@ -530,7 +498,7 @@ int main()
     scanf ("%f" , &b);
     printf("enter c : ");
     scanf ("%f" , &c);
-    
+
     if (a == b && b == c)
     {
        printf("a , b and c are equal !!");
@@ -542,7 +510,7 @@ int main()
         {
             printf("\nc is the bigest , by the way !!");
         }
-        else 
+        else
         {
             printf("\na and b are bigger than c !!");
         }
@@ -554,7 +522,7 @@ int main()
         {
             printf("\na is the bigest , by the way !!");
         }
-        else 
+        else
         {
             printf("\nb and c are bigger than a !!");
         }
@@ -566,7 +534,7 @@ int main()
         {
             printf("\nb is the bigest , by the way !!");
         }
-        else 
+        else
         {
             printf("\na and c are bigger than b !!");
         }
@@ -584,11 +552,9 @@ int main()
         printf("c is the bigest");
     }
     */
-   
 
-   // ✌️#24 check if the number is palindromic or not
-   // approach : first i will reverse the number and store it to a variable , then compare with the first variable 
-
+    // ✌️#24 check if the number is palindromic or not
+    // approach : first i will reverse the number and store it to a variable , then compare with the first variable
 
     /*
     int n , rem , rev = 0 , n1;
@@ -596,27 +562,25 @@ int main()
     scanf("%d" , & n);
     // coping n to n1
     n1 = n;
-    // reversing 
+    // reversing
     while (n > 0)
     {
         rem = n % 10;
         rev = (rev * 10) + rem;
         n = n / 10;
-    } 
+    }
     // compairing rev and n1 if number is palindromic or not
     if( n1 == rev)
     {
         printf("palindromic number");
     }
-    else 
+    else
     {
         printf("not palindromic number");
     }
     */
 
-
     // ✌️#25 make a calculater using switch case
-
 
     /*
     float a , b , r;
@@ -649,16 +613,14 @@ int main()
             r = a/b;
             printf("result : %f" , r);
             break;
-    
+
         default:
             printf("some thing went wrong");
             break;
     }
     */
 
-
     // ✌️#26 electricity bill calculater
-
 
     /*
     float unit , unit1 , bill , sc;
@@ -683,14 +645,12 @@ int main()
     else if (unit = 200)
     {
         bill = 200 * .8;
-    } 
+    }
     bill = bill + 100;
     printf("your bill : %f rs", bill);
     */
 
-
-    // ✌️#27 reverse a number 
-
+    // ✌️#27 reverse a number
 
     /*
     int n , rem , rev=0;
@@ -704,17 +664,14 @@ int main()
     }
     printf("reverse : %d", rev);
     */
-    
 
-    // ✌️#28 sum of digits in a number 
-
+    // ✌️#28 sum of digits in a number
 
     /*
     int n;
     printf("enter number : ");
     scanf("%d", &n);
     */
-
 
     // ✌️#29 pattern printing
     /*
@@ -725,7 +682,6 @@ int main()
     * * * *
     * * * * *
     */
-
 
     /*
     int n , i , j;
@@ -739,10 +695,9 @@ int main()
         {
             printf("%c ", c);
         }
-        printf("\n"); 
+        printf("\n");
     }
     */
-
 
     /*
     pattern : box
@@ -752,7 +707,6 @@ int main()
     * * * * *
     * * * * *
     */
-    
 
     /*
     int n , i , j;
@@ -762,13 +716,12 @@ int main()
     {
         for(j=1;j<=n;j++)
         {
-            printf("*");           
+            printf("*");
         }
         printf("\n");
-         
-    }    
+
+    }
     */
-    
 
     /*
     pattern: equilateral triangle
@@ -778,7 +731,7 @@ int main()
      * * * *
     * * * * *
     */
-    
+
     /*
     int n , i , j , k ;
     char c='*';
@@ -792,24 +745,22 @@ int main()
         }
         for(j=1;j<=i;j++)
         {
-                
+
             printf("%c ", c);
         }
-        printf("\n"); 
+        printf("\n");
     }
     */
 
-
     /*
     pattern : reverse right angle triangle
-    * * * * * 
+    * * * * *
     * * * *
     * * *
     * *
     *
     */
 
-    
     /*
     int n , i , j;
     printf("rows : ");
@@ -830,9 +781,8 @@ int main()
      * * * *
       * * *
        * *
-        *   
+        *
     */
-
 
     /*
     int n , i , j , k;
@@ -852,7 +802,6 @@ int main()
     }
     */
 
-
     /*
     pattern : window / empty box
     * * * * *
@@ -862,16 +811,15 @@ int main()
     * * * * *
     */
 
-
     /*
-    int n , i , j , k;
+    int n , i , j;
     printf("enter row : ");
     scanf("%d", &n);
     for(i=1 ; i<=n ; i++)
     {
         for (j=1 ; j<=n ; j++)
         {
-            
+
             if(i>1 && i<n && j>1 && j<n)
             {
                 printf("  ");
@@ -885,7 +833,6 @@ int main()
     }
     */
 
-
     /*
     pattern : door
     * * * * * *
@@ -895,11 +842,38 @@ int main()
     *    *    *
     * * * * * *
     */
-    
 
 
+    /*
+    int i , j , n , k;
+    printf("enter row : ");
+    scanf("%d", &n);
+    for(i=1 ; i<=n ; i++)
+    {
+        
+        for(j=1 ; j<=n ; j++)
+        {
+            if(i>1 && i<n && j>1 && j<n)
+            {
+                if(j==n/2 )
+                {
+                    printf(" *");
+                }
+                else 
+                {
+                    printf("  ");
+                }    
+            }
+            else
+            {
+                printf(" *");
+            }
+        }
+        printf("\n");
+    }
+    */
 
-    
+
 
 
 
