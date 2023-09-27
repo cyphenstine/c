@@ -850,19 +850,32 @@ int main()
     scanf("%d", &n);
     for(i=1 ; i<=n ; i++)
     {
-        
         for(j=1 ; j<=n ; j++)
         {
             if(i>1 && i<n && j>1 && j<n)
             {
-                if(j==n/2 )
+                if(n%2==0)
                 {
-                    printf(" *");
-                }
-                else 
-                {
+                    if(j==n/2 )
+                    {
+                        printf(" *");
+                    }
+                    else 
+                    {
                     printf("  ");
-                }    
+                    }
+                }
+                else
+                {
+                    if(j==n/2+1 )
+                    {
+                        printf(" *");
+                    }
+                    else 
+                    {
+                    printf("  ");
+                    }   
+                } 
             }
             else
             {
