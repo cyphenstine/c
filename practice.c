@@ -833,6 +833,7 @@ int main()
     }
     */
 
+
     /*
     pattern : door
     * * * * * *
@@ -886,6 +887,54 @@ int main()
     }
     */
 
+
+    /*
+    pattern :
+         *
+        * *
+       * * *
+      * * * *
+     * * * * *
+      * * * * 
+       * * * 
+        * *
+         *
+    */
+
+
+    /*
+    int n , i , j , k , l , m , o;
+    printf("rows : ");
+    scanf("%d", &n);
+    //first triangle
+    for(i=1 ; i<=n ; i++)
+    {
+        
+        for(k=n ; k>=i ; k--)
+        {
+            printf(" ");
+        }
+        for(j=1 ; j<=i ; j++)
+        {
+            printf(" *");
+        }
+        printf("\n");
+        
+    }
+    //second triangle
+    for(l=2 ; l<=n ; l++)
+    {
+        for(m=1 ; m<=l ; m++)
+        {
+            printf(" ");
+        }
+        for(o=n ; o>=l ; o--)
+        {
+            printf(" *");
+        }
+        printf("\n");
+    }
+    */
 
 
 
