@@ -889,7 +889,7 @@ int main()
 
 
     /*
-    pattern :
+    pattern : diamond
          *
         * *
        * * *
@@ -938,7 +938,7 @@ int main()
 
 
     /*
-    pattern :
+    pattern : half diamond
     *
     * *
     * * *
