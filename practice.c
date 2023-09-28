@@ -863,7 +863,7 @@ int main()
                     }
                     else 
                     {
-                    printf("  ");
+                        printf("  ");
                     }
                 }
                 else
@@ -874,7 +874,7 @@ int main()
                     }
                     else 
                     {
-                    printf("  ");
+                        printf("  ");
                     }   
                 } 
             }
