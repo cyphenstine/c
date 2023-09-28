@@ -937,6 +937,43 @@ int main()
     */
 
 
+    /*
+    pattern :
+    *
+    * *
+    * * *
+    * * * *
+    * * * * *
+    * * * *
+    * * * 
+    * *
+    * 
+    */
+
+
+    /*
+    int n , i , j , k , l;
+    printf("enter row : ");
+    scanf("%d", &n);
+    for(i=1 ; i<=n ; i++)
+    {
+        for(j=1 ; j<=i ; j++)
+        {
+            printf(" *");
+        }
+        printf("\n");
+    }
+    for(k=2 ; k<=n ; k++)
+    {
+        for(l=n ; l>=k ; l--)
+        {
+            printf(" *");
+        }
+        printf("\n");
+    }
+    */
+
+
 
 
 
