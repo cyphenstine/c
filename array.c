@@ -152,32 +152,44 @@ int main()
     scanf("%d", &n);
     lb=0;
     ub=9;
-    while(lb!=ub)
-    {
-        mid = lb+ub/2;
-        if (n == arr[mid])
-        {
-            f=1;
-            break;
-        }
-        if(n>arr[mid])
-        {
-            lb=mid+1;
-        }
-        else
-        {
-            ub=mid-1;    
-        }
-        
-    }
-    if(f==1)
-    {
-        printf("found");
-    }
-    else
+    if(n>ub)
     {
         printf("not found");
     }
+    else if(n<lb)
+    {
+        printf("not found");
+    }
+    else
+    {
+        while(lb!=ub)
+        {
+            mid = (lb+ub)/2;
+            if (n == arr[mid])
+            {
+                f=1;
+                break;
+            }
+            if(n>arr[mid])
+            {
+                lb=mid;
+            }
+            else
+            {
+                ub=mid;    
+            }
+            
+        }
+        if(f==1)
+        {
+            printf("found");
+        }
+        else
+        {
+            printf("not found");
+        }
+    }
+    
         
     
     
