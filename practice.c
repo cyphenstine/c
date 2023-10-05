@@ -665,7 +665,7 @@ int main()
     printf("reverse : %d", rev);
     */
 
-    // ✌️#28 sum of digits in a number
+    // ✌️#28 sum of digits in a number(incomplete)
 
     /*
     int n;
@@ -973,6 +973,73 @@ int main()
     }
     */
 
+
+    /*
+    pattern :
+         1
+        1 0
+       1 0 1
+      1 0 1 0
+     1 0 1 0 1
+    */ 
+
+
+    /*
+    int n , i , j , k , l;
+    printf("rows : ");
+    scanf("%d", &n);
+    for(i=1 ; i<=n ; i++)
+    {
+        for(j=n ; j>=i ; j--)
+        {
+            printf(" ");
+        }
+        for(k=1 ; k<=i ; k++)
+        {
+            if(k%2==0)
+            {
+                printf(" 0");
+            }
+            else
+            {
+                printf(" 1");
+            }
+        }
+        printf("\n");
+    }
+    */
+
+
+    /*(incomplete)
+    pattern :
+    *                    *
+        *             *
+            *     *    
+               *
+            *     *
+        *              *
+    *                      *
+    */
+
+
+    /*
+    int i , j , n;
+    printf("row & coloum : ");
+    scanf("%d", &n);
+    for(i=1 ; i<=n ; i++)
+    {
+        for(j=1 ; j<=n ; j++)
+        {
+            printf(" *");
+        }
+        printf("\n");
+    } 
+    */
+
+
+ 
+
+    
 
 
 
