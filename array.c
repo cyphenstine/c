@@ -2,7 +2,7 @@
 #include<stdbool.h>
 int main()
 {
-    //initializing arrys' values(way : 1)
+    //✌️#1 initializing arrys' values(way : 1)
     /*
     int arr[5];
     arr[0]=10;
@@ -13,7 +13,7 @@ int main()
     */
 
 
-    //initializing arrys' values(way : 2)(better way)
+    //✌️#2 initializing arrys' values(way : 2)(better way)
     /*
     int arr[5]={1,2,3,4,5};
     [or]
@@ -21,13 +21,13 @@ int main()
     */
 
 
-    //printing array
+    //✌️#3 printing array
     /*
     printf("%d", arr[4]);
     */
 
 
-    //taking a input in arry and printing it
+    //✌️#4 taking a input in arry and printing it
     /*
     printf("enter : ");
     scanf("%d", &arr[5]);
@@ -35,7 +35,7 @@ int main()
     */
     
     
-    //using loop to take input in array and printing output
+    //✌️#5 using loop to take input in array and printing output
     /*
     for(int i=0 ; i<=4 ; i++)
     {
@@ -49,7 +49,7 @@ int main()
     */
     
 
-    //sizeof()
+    //✌️#6 sizeof()
     /*
     int arr[]={1,2,3,4,5};
     printf("total size : %d", sizeof(arr));
@@ -57,7 +57,7 @@ int main()
     */
 
 
-    //note :
+    //✌️#7 note :
     /*
     right way :
     int size = 10 , b[size];
@@ -68,7 +68,7 @@ int main()
     */
 
 
-    //take the size of array as an input from user with a variable and also take values as input
+    //✌️#8 take the size of array as an input from user with a variable and also take values as input
     /*
     int n ;
     printf("enter size : ");
@@ -82,7 +82,7 @@ int main()
     */
     
 
-    //sum of array
+    //✌️#9 sum of array
     /*
     int n=4 , i , arr[]={11,32,43,64} , sum;
     for(i=0 ; i<n ; i++)
@@ -93,7 +93,7 @@ int main()
     */
 
 
-    //product of arry
+    //✌️#10 product of arry
     /*
     int n=4 , i , arr[]={11,22,33,44} , pro=1;
     for(i=0 ; i<n ; i++)
@@ -104,7 +104,7 @@ int main()
     */
 
 
-    //linear search
+    //✌️#11 linear search
     /*
     int n , arr[7]={2,5,7,8,6,4,9}, i;
     printf("enter number : ");
@@ -121,7 +121,7 @@ int main()
     */
 
 
-    //linear search with bool data type
+    //✌️#12 linear search with bool data type
     /*
     int n , arr[7]={2,5,7,8,6,4,9}, i;
     bool marker = 0;
@@ -146,28 +146,29 @@ int main()
     */
 
 
-    //binary search
-    int arr[10], lb , ub , n , mid , i , f=0;
-    for(i=0 ; i<10 ; i++)
+    //✌️#13 binary search & bubble sort 
+    int arr[100], lb , ub , n , lim , mid , i , f=0;
+    printf("how many you wanna work with : ");
+    scanf("%d", &lim);
+    for(i=0 ; i<lim ; i++)
     {
         printf("enter : ");
         scanf("%d", &arr[i]);
     }
-    printf("enter the number : ");
+    // bubble sort
+
+    // binary search
+    printf("enter the number , you wanna find : ");
     scanf("%d", &n);
     lb=0;
-    ub=9;
-    if(n>ub)
-    {
-        printf("not found");
-    }
-    else if(n<lb)
-    {
-        printf("not found");
-    }
-    else
-    {
-        while(lb!=ub)
+    ub=lim-1;
+    if (n < arr[lb] || n > arr[ub])
+
+    printf("not found");
+    else{
+ 
+     
+        while(lb<=ub)
         {
             mid = (lb+ub)/2;
             if (n == arr[mid])
@@ -177,13 +178,12 @@ int main()
             }
             if(n>arr[mid])
             {
-                lb=mid;
+                lb=mid+1;
             }
             else
             {
-                ub=mid;    
-            }
-            
+                ub=mid-1;    
+            }    
         }
         if(f==1)
         {
@@ -193,8 +193,8 @@ int main()
         {
             printf("not found");
         }
-    }
     
+    }
         
     
     
