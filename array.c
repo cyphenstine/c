@@ -203,7 +203,7 @@ int main()
 
     //bubble sort
 
-
+        //input
         int n,i;
         int arr[100];
         printf("how many numbers : ");
