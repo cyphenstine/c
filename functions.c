@@ -65,7 +65,7 @@ void greet()
 // make a function that will calculate combination[n!/r!(n-r)!]
 
 
-int fact(int n)
+int facto(int n)
 {
     int fact, i;
     for(i=1;i<=n;i++)
@@ -101,8 +101,7 @@ int main()
     //combination
     combi=fact_n/(fact_r*fact_sub);
     printf("%d", combi);
-    //testing git bash
-    //testing git bash 2
+    
 
 
     return 0;
