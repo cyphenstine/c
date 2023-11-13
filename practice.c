@@ -597,17 +597,17 @@ int main()
         case '+' :
             r = a+b;
             printf("result : %f" , r);
-            break;
+        break;
 
         case '-' :
             r = a-b;
             printf("result : %f" , r);
-            break;
+        break;
 
         case '*' :
             r = a*b;
             printf("result : %f" , r);
-            break;
+        break;
 
         case '/' :
             r = a/b;
@@ -616,7 +616,7 @@ int main()
 
         default:
             printf("some thing went wrong");
-            break;
+        break;
     }
     */
 
