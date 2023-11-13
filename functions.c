@@ -101,7 +101,7 @@ int main()
     //combination
     combi=fact_n/(fact_r*fact_sub);
     printf("%d", combi);
-
+    //testing git bash
 
 
     return 0;
