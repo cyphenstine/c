@@ -1,4 +1,4 @@
-//✌️greet good morning
+
 #include<stdio.h>
 void greet()
 {

@@ -13,5 +13,6 @@ int main()
     scanf("%d",&d);
     sum=add(c,d);
     printf("sum : %d", sum);
+    return 0;
 }
 
