@@ -1,1 +1,1 @@
-https://github.com/cyphenstine/c_programing.git
+https://github.com/cyphenstine/c.git
