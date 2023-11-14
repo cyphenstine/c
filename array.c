@@ -7,44 +7,13 @@ int main()
 
         
 
-    //✌️#9 sum of array
-    /*
-    int n=4 , i , arr[]={11,32,43,64} , sum;
-    for(i=0 ; i<n ; i++)
-    {
-        sum=sum+arr[i];
-    }
-    printf("%d", sum);
-    */
+    
 
 
-    //✌️#10 product of arry
-    /*
-    int n=4 , i , arr[]={11,22,33,44} , pro=1;
-    for(i=0 ; i<n ; i++)
-    {
-        pro=pro*arr[i];
-    }
-    printf("%d", pro);
-    */
 
 
-    //✌️#11 linear search
-    /*
-    int n , arr[7]={2,5,7,8,6,4,9}, i;
-    printf("enter number : ");
-    scanf("%d", &n);
-    for(i=0 ; i<7 ; i++)
-    {
-        if (n==arr[i])
-        {
-            printf("found");
-            break;
-        }
-        
-    }
-    */
 
+    
 
     //✌️#12 linear search with bool data type
     /*
