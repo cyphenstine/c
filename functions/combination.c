@@ -20,7 +20,8 @@ int main()
     scanf("%d", &r);   
     //n!
     // beta way
-    /*    for(i=1;i<=n;i++)
+    /*    
+    for(i=1;i<=n;i++)
     {
         fact_n=fact_n*i;
     }   
