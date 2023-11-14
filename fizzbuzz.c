@@ -9,20 +9,22 @@
 #include<stdio.h>
 int main()
 {
-    int n,i;
-    printf("how many number u wanna work with : ");
-    scanf("%d",&n);
-    int arr[100];
-    for (i=0;i<n;i++)
+    int i;
+    for(i=1;i<=100;i++)
     {
-        
+        if(i%3==0 && i%5==0)
+            printf("fizzbuzz\n");
+        else if(i%3==0)
+            printf("fizz\n");
+        else if(i%5==0)
+            printf("buzz\n");
+        else
+            printf("%d\n",i);
     }
     
     
     
     
     
-    
     return 0;
-
 }
