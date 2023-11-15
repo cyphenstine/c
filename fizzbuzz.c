@@ -10,7 +10,8 @@
 int main()
 {
     int i;
-    for(i=1;i<=100;i++)
+    int limit=100;
+    for(i=1;i<=limit;i++)
     {
         if(i%3==0 && i%5==0)
             printf("fizzbuzz\n");
