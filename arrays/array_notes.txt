@@ -1,38 +1,43 @@
 //✌️#1 initializing arrys' values(way : 1)
-    /*
+    
     int arr[5];
     arr[0]=10;
     arr[1]=20;
     arr[2]=30;
     arr[3]=40;
     arr[4]=50;
-    */
 
 
     //✌️#2 initializing arrys' values(way : 2)(better way)
-    /*
+    
     int arr[5]={1,2,3,4,5};
+
     [or]
+
     int arr[]={1,2,3,4,5};(you can avoid mentioning the size of the array if you are doing it this way)
-    */
 
 
     //✌️#3 printing array
-    /*
+    
+    //for one element :
+
     printf("%d", arr[4]);
-    */
+
+    //for printing entire array :
+
+    for(j=0;j<5;j++)
+        printf("%d ",arr[j]);
 
 
     //✌️#4 taking a input in arry and printing it
-    /*
+
     printf("enter : ");
     scanf("%d", &arr[5]);
     printf("%d", arr[5]);
-    */
     
     
     //✌️#5 using loop to take input in array and printing output
-    /*
+
     for(int i=0 ; i<=4 ; i++)
     {
         printf("enter : ");
@@ -42,23 +47,19 @@
     {
         printf("%d ", arr[j]);
     }
-    */
     
 
     //✌️#6 sizeof()
-    /*
+
     int arr[]={1,2,3,4,5};
     printf("total size : %d", sizeof(arr));
     printf("\nnumber of elements : %d", sizeof(arr)/sizeof(int));
-    */
 
 
     //✌️#7 note :
-    /*
+
     right way :
     int size = 10 , b[size];
-    */
-    /*
+
     wrong way :
     int b[size] , size=10;
-    */
