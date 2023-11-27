@@ -20,8 +20,6 @@ int main()
             space ++;
     }
     printf("\nspaces in you name : %d",space);
-    // positions of the last space
-    
     // @ abbriviation part
     int k;
     printf("\nyour name : ");
@@ -33,7 +31,7 @@ int main()
         if(name[k] == ' ')
             printf("%c.", name[k+1]);
         // printing the full last name
-        //else if()
+        
      
     }
         
