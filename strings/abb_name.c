@@ -11,11 +11,12 @@ int main()
     for(len=0 ; name[len] != '\0' ; len++){}
         printf("size : %d", len);
     // how many spaces in the name and capturing the position of the last sapce 
-    int space = 0 , j , pos[30] , p;
+    int space = 0 , j , posi[30] , p;
     for(j = 0 ; name[j] != '\0' ; j++)
     {
         if(name[j] == ' ')
-            
+            posi[p]=j;
+            p++;
             space ++;
     }
     printf("\nspaces in you name : %d",space);
@@ -28,11 +29,11 @@ int main()
     {
         // abbriviates middle name(s)
         if(name[k] == ' ')
-            printf("%c.", name[k+1]);
-        // printing the full last name
-        
-     
+            printf("%c.", name[k+1]);     
     }
+    // printing the full last name
+    for(k = posi[p] ; k <= len ; k++)
+        printf("%c" , name[k]);
         
 
 
