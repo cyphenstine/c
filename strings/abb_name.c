@@ -15,8 +15,7 @@ int main()
     for(j = 0 ; name[j] != '\0' ; j++)
     {
         if(name[j] == ' ')
-            pos[p] = j;
-            p ++;
+            
             space ++;
     }
     printf("\nspaces in you name : %d",space);
