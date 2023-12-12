@@ -20,9 +20,7 @@ int main()
             pos[p]=j;
             p++;
             space ++;
-
-        }
-            
+        }        
     }
     printf("\nspaces in you name : %d",space);
     // @ abbriviation part
