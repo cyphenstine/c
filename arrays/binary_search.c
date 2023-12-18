@@ -2,7 +2,7 @@
 int main()
 {
     int arr[100], lb , ub , n , lim , mid , i , f=0;
-    printf("how many you wanna work with : ");
+    printf("how many numbers you wanna work with : ");
     scanf("%d", &lim);
     for(i=0 ; i<lim ; i++)
     {
